@@ -14,3 +14,4 @@ export const createSiteMenuTemplate = () => {
     <li><a href="#" class="sort__button">Sort by rating</a></li>
   </ul>`;
 };
+

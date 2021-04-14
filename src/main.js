@@ -14,7 +14,7 @@ const siteMainElement = document.querySelector('.main');
 const siteHeaderElement = siteMainElement.querySelector('.header');
 
 render(siteHeaderElement, createSiteMenuTemplate(), 'beforeend');
-render(siteHeaderElement, createMovieInfo(), 'beforeend');
+render(siteHeaderElement, createMoreInfo(), 'beforeend');
 render(siteHeaderElement, createProfileRating(), 'beforeend');
 
 const filmCardElement = siteMainElement.querySelector('.film-list');

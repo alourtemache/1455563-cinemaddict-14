@@ -17,3 +17,4 @@ export const createMovieCard = () => {
     </div>
   </article>`;
 };
+
