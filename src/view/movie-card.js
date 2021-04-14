@@ -1,5 +1,5 @@
 export const createMovieCard = () => {
-    return `<article class="film-card">
+  return `<article class="film-card">
     <h3 class="film-card__title">Santa Claus Conquers the Martians</h3>
     <p class="film-card__rating">2.3</p>
     <p class="film-card__info">
@@ -17,4 +17,3 @@ export const createMovieCard = () => {
     </div>
   </article>`;
 };
-
