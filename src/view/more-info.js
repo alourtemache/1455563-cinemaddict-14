@@ -1,5 +1,5 @@
 export const createMoreInfo = () => {
-  return '<section class="film-details">
+  return `<section class="film-details">
     <form class="film-details__inner" action="" method="get">
       <div class="film-details__top-container">
         <div class="film-details__close">
@@ -167,5 +167,5 @@ export const createMoreInfo = () => {
         </section>
       </div>
     </form>
-  </section>';
+  </section>`;
 };

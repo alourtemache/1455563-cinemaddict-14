@@ -22,8 +22,10 @@ const movieCard = filmCardElement.querySelector('.film-list__container');
 
 render(movieCard, createMovieCard(), 'beforeend');
 
-for (let i = 0; i < CARD_COUNT; i++) {
-  render(movieCard, createMovieCard(), 'beforeend');
+const renderCard = (n, place) => {
+  for (let i = 0; i < CARD_COUNT; i++) {
+    render(movieCard, createMovieCard(), 'beforeend');
+  }
 }
 
 render(filmCardElement, createShowMoreButton(), 'beforeend');
