@@ -16,4 +16,4 @@ export const createFilmList = () => {
       </div>
     </section>
     </section>`;
-}
+};
