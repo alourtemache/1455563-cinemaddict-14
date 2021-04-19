@@ -22,19 +22,18 @@ render(siteMainElement, createMoreInfo(), 'beforeend');
 render(siteHeaderElement, createProfileRating(), 'beforeend');
 render(siteMainElement, createFilmList(), 'beforeend');
 
-const filmCardElement = siteMainElement.querySelector('.film-list__container');
-const movieCard = filmCardElement.querySelector('.film-card');
+const filmListElement = siteMainElement.querySelector('.films-list__container');
 
 
 for (let i = 0; i < CARD_COUNT; i++) {
-  render(movieCard, createMovieCard(), 'beforeend');
+  render(filmListElement, createMovieCard(), 'beforeend');
 }
 for (let i = 0; i < TOP_RATED; i++) {
-  render(movieCard, createMovieCard(), 'beforeend');
+  render(filmListElement, createMovieCard(), 'beforeend');
 }
 for (let i = 0; i < MOST_COMMENTED; i++) {
-  render(movieCard, createMovieCard(), 'beforeend');
+  render(filmListElement, createMovieCard(), 'beforeend');
 }
 
 //Кнопка
-render(filmCardElement, createShowMoreButton(), 'beforeend');
+render(filmListElement, createShowMoreButton(), 'beforeend');
